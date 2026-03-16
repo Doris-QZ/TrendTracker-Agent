@@ -1,0 +1,8 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "trend_tracker": "./main.py:trend_tracker_agent"
+  },
+  "env": "./.env",
+  "python_version": "3.12"
+}
