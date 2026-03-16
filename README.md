@@ -32,7 +32,7 @@ Simply input an AI/ML research topic, and the agent performs deep-dive research 
 
 ## 🏛️ Agent Architecture 
 
-TrendTracker is built using **LangGraph**, transitioning from a linear chain to a stateful, cyclic directed graph. This architecture allows the system to self-correct, parallelize research, and maintain a "long-term" memory of the research mission.  
+TrendTracker is built using **LangGraph**, transitioning from a linear chain to a stateful, cyclic directed graph. This architecture allows the system to self-correct, parallelize research, and maintain persistent session memory to handle complex research loops and human feedback.  
 
 ![agent_architecture](./assets/TrendTracker_Architecture.png)
 
